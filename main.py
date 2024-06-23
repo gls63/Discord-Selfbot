@@ -83,7 +83,7 @@ def disco_status():
 		lasttext=''
 		for i in range(5):
 			while True:
-				emoji=random.choice(['🔴', '🟢', '🔵', '🟡', '🟣'])
+				emoji=random.choice(['Сотрудничество/Реклама'])
 				if not emoji in text:
 					text+=emoji
 					break
